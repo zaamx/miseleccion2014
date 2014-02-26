@@ -1,0 +1,120 @@
+/******************************************************************
+Stylesheet: Main Stylesheet
+******************************************************************/
+#contenido #news {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+article.highL {
+  background: #eeeeee;
+  margin: 10px 0;
+}
+article.highL header {
+  background: #5cb85c;
+  color: #eeeeee;
+}
+article.highL header h2 {
+  padding: 0 20px;
+  margin: 0;
+}
+article.highL section {
+  padding: 10px;
+}
+article.highL footer {
+  padding: 10px;
+}
+article.newsHome {
+  background: #fbfbfb;
+  border: 1px solid #eeeeee;
+  margin: 10px 0;
+}
+article.newsHome header {
+  position: relative;
+}
+article.newsHome header img.img-responsive-2 {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+article.newsHome header h2 {
+  position: relative;
+  z-index: 100;
+  display: block;
+  color: gold;
+  background: #fbfbfb;
+  padding: 0 20px;
+  margin: -20px 20px 0;
+}
+article.newsHome section {
+  padding: 10px 30px;
+}
+article.newsHome footer {
+  padding: 10px 30px;
+}
+.lista-news {
+  border: 1px solid #eeeeee;
+  overflow: hidden;
+}
+.lista-news ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lista-news ul li {
+  float: left;
+  display: block;
+  border-bottom: 1px solid #eeeeee;
+  margin: 5px 0;
+}
+.soc-comp {
+  background: red;
+  width: 100%;
+  padding: 20px;
+}
+.soc-comp a {
+  color: #eeeeee;
+}
+.footer {
+  background: #222222;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (min-width: 481px) {
+  
+}
+@media only screen and (min-width: 768px) {
+  
+}
+@media only screen and (min-width: 992px) {
+  
+}
+@media only screen and (min-width: 1200px) {
+  
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  
+}
+/*
+iPHONE 5 MEDIA QUERY
+Want to get fancy for no good reason? Knock yourself out.
+*/
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}

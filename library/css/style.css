@@ -5,6 +5,33 @@ Stylesheet: Main Stylesheet
   padding-top: 10px;
   padding-bottom: 10px;
 }
+h1#logo {
+  text-align: center;
+}
+h1#logo img {
+  width: 30%;
+  height: auto;
+}
+.logos {
+  clear: both;
+  border-bottom: solid #cccccc;
+}
+.logos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.logos ul li {
+  float: left;
+  display: block;
+}
+.logos ul li a {
+  display: block;
+  padding: 0 10px;
+}
+.navegador {
+  clear: both;
+}
 article.highL {
   background: #eeeeee;
   margin: 10px 0;
@@ -97,7 +124,13 @@ article.newsHome footer {
   height: 100%;
 }
 @media only screen and (min-width: 481px) {
-  
+  h1#logo {
+    text-align: left;
+  }
+  h1#logo img {
+    width: auto;
+    height: auto;
+  }
 }
 @media only screen and (min-width: 768px) {
   

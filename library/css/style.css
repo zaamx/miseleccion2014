@@ -1,6 +1,14 @@
 /******************************************************************
 Stylesheet: Main Stylesheet
 ******************************************************************/
+body {
+  background-color: #f1f1f1;
+  background-image: url(../imgs/MiSeleccionMx_BG_EstadioAzteca.jpg);
+  background-repeat: no-repeat;
+}
+.container {
+  background-image: url(../imgs/MiSeleccionMx_Transparency.png);
+}
 #contenido #news {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -14,7 +22,6 @@ h1#logo img {
 }
 .logos {
   clear: both;
-  border-bottom: solid #cccccc;
 }
 .logos ul {
   list-style: none;
@@ -31,6 +38,12 @@ h1#logo img {
 }
 .navegador {
   clear: both;
+}
+.navegador hr.style-six {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 article.highL {
   background: #eeeeee;
@@ -104,6 +117,7 @@ article.newsHome footer {
 }
 .footer {
   background: #222222;
+  color: #DDD;
   padding: 65px 0;
 }
 .embed-container {

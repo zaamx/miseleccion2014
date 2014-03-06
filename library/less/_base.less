@@ -1,13 +1,17 @@
 
 
 body {
-	background: url(../imgs/MiSeleccionMx_BG_EstadioAzteca.jpg) no-repeat center center fixed; 
+	background: url(../imgs/MiSeleccionMx_BG_EstadioAzteca.jpg) no-repeat center top; 
 	background-color: #f1f1f1;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
+	height: 100px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+}
+
+header { 
 }
 
 .container {
@@ -51,6 +55,17 @@ h1#logo {
 	}
 }
 
+.search {
+	background-color: @brand-text-grey;
+	color: @brand-text-white;
+	padding: 5px;
+	}
+
+.acceso {
+	margin: 35px 0 0 0;
+	text-align: right;
+}
+
 .navegador {
 	clear: both;
 
@@ -63,20 +78,44 @@ h1#logo {
 
 }
 
+#calendario {
+	background-color: #dfc182;
+	height: 80px;
+	margin: 10px 0 10px 0;
+}
+
+#banner-1 {
+	margin: 10px -15px;
+}
+
 article.highL {
 	background: @gray-lighter;
 	margin: 10px 0;
 	header {
-		background: @brand-success;
+		background: @brand-green;
 		color: @gray-lighter;
 		h2 {
-			padding: 0 20px;
-			margin: 0;
+			font-size: 18px;
+			font-weight: bold;
+			text-align: left;
+			padding: 10px;
 		}
 	}
+
 	section {
 		padding: 10px;
+		
+		p {
+			color: @brand-text-grey;
+			font-size: 12px;
+		}
+
+		a {
+			color: @brand-darkgold;
+			text-decoration: none;
+		}
 	}
+
 	footer {
 		padding: 10px;	
 	}

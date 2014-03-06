@@ -2,10 +2,11 @@
 Stylesheet: Main Stylesheet
 ******************************************************************/
 body {
-  background: url(../imgs/MiSeleccionMx_BG_EstadioAzteca.jpg) no-repeat center center fixed;
+  background: url(../imgs/MiSeleccionMx_BG_EstadioAzteca.jpg) no-repeat center top;
   background-color: #f1f1f1;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  height: 100px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,6 +41,15 @@ h1#logo img {
   display: block;
   padding: 0 10px;
 }
+.search {
+  background-color: #444444;
+  color: #ffffff;
+  padding: 5px;
+}
+.acceso {
+  margin: 35px 0 0 0;
+  text-align: right;
+}
 .navegador {
   clear: both;
 }
@@ -49,20 +59,38 @@ h1#logo img {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+#calendario {
+  background-color: #dfc182;
+  height: 80px;
+  margin: 10px 0 10px 0;
+}
+#banner-1 {
+  margin: 10px -15px;
+}
 article.highL {
   background: #eeeeee;
   margin: 10px 0;
 }
 article.highL header {
-  background: #5cb85c;
+  background: #008240;
   color: #eeeeee;
 }
 article.highL header h2 {
-  padding: 0 20px;
-  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
 }
 article.highL section {
   padding: 10px;
+}
+article.highL section p {
+  color: #444444;
+  font-size: 12px;
+}
+article.highL section a {
+  color: #bd9e67;
+  text-decoration: none;
 }
 article.highL footer {
   padding: 10px;

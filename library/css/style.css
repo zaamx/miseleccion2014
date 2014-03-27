@@ -11,6 +11,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+header h2 {
+  font-family: ‘Gudea’, Arial, serif; font-weight: 400;
+  margin: 0;
+}
 .container {
   background-image: url(../imgs/MiSeleccionMx_Transparency.png);
 }
@@ -44,6 +48,7 @@ h1#logo img {
 .search {
   background-color: #444444;
   color: #ffffff;
+  margin: 0 0 0 10px;
   padding: 5px;
 }
 .acceso {

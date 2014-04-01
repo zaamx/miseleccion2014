@@ -3918,18 +3918,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #444;
-  font-family: 'OpenSans', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  color: #777777;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #008240;
+  color: none;
   background-color: transparent;
-  border-color: #008240;
-  border-bottom: solid 2px;
-  margin-bottom: -5px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,

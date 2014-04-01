@@ -142,6 +142,58 @@ article.newsHome footer {
   border-bottom: 1px solid #eeeeee;
   margin: 5px 0;
 }
+#busqueda {
+  font-family: 'Open Sans', sans-serif;
+}
+article.search {
+  border-top: 5px solid #7fc09f;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  margin: 15px 0;
+  padding: 0px;
+}
+article.search header {
+  padding: 0;
+  color: #eeeeee;
+}
+article.search header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+article.search section {
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px solid red;
+}
+article.search section p {
+  color: #444444;
+  font-size: 14px;
+}
+article.search section a {
+  color: #bd9e67;
+  text-decoration: none;
+}
+article.search footer {
+  padding: 10px;
+}
+#sidebar {
+  border-top: 5px solid #7fc09f;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  box-shadow: 2px 2px 3px #CCC;
+  padding: 5px;
+  margin: 15px 0 0 0;
+}
+#sidebar .banner {
+  margin: 0 0 5px 0;
+}
+#sidebar a {
+  color: #bd9e67;
+}
 .soc-comp {
   background: red;
   width: 100%;
@@ -149,11 +201,6 @@ article.newsHome footer {
 }
 .soc-comp a {
   color: #eeeeee;
-}
-.search {
-  background-color: #FFF;
-  border: 1px solid #d7d7d7;
-  padding: 0;
 }
 .footer {
   background: #222222;

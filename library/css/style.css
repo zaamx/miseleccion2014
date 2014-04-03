@@ -171,6 +171,63 @@ article.newsHome footer {
   font-size: 17px;
   font-weight: bold;
 }
+#noticias h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+#noticias-title hr {
+  border-top: 3px solid #7fc09f;
+}
+.news_destacada {
+  border-top: 5px solid #7fc09f;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  margin: 15px 0;
+  padding: 0px;
+}
+.news_destacada header {
+  padding: 0;
+  color: #eeeeee;
+}
+.news_destacada header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+article.news {
+  border: 1px solid #CCC;
+  margin: 15px 0;
+  padding: 0px;
+}
+article.news header {
+  padding: 0;
+  color: #eeeeee;
+}
+article.news header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+article.news section {
+  background-color: #FFF;
+  padding: 10px;
+  margin: 10px solid red;
+}
+article.news section p {
+  color: #444444;
+  font-size: 14px;
+}
+article.news section a {
+  color: #bd9e67;
+  text-decoration: none;
+}
+article.news footer {
+  padding: 10px;
+}
 article.search {
   border-top: 5px solid #7fc09f;
   border-right: 1px solid #CCC;
